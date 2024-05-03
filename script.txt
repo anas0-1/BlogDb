@@ -5,3 +5,6 @@ UPDATE USERS SET email = 'updated@email.com' WHERE Id_user = 5;
 SELECT * FROM CATEGORY;
 
 INSERT INTO USER (Id_user, first_name, last_name, email, mdp, Id_rol) VALUES (6, 'anas', 'zrigui', 'anas@example.com', 'password456', 2);
+
+ALTER TABLE Article
+ADD COLUMN new_col TEXT;
